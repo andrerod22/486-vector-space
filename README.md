@@ -20,10 +20,18 @@ This project implements a Vector Space Model (VSM) for information retrieval. Th
 3. **Run the Script:** Execute vectorspace.py script and provide the necessary command-line arguments.
 
 	python vectorspace.py [weight_docs] [weight_queries] [input_directory] [queries_file]
-	•	[weight_docs]: Weighting scheme for documents (tf, tfc).
-	•	[weight_queries]: Weighting scheme for queries (idf, tfx).
-	•	[input_directory]: Path to the directory containing document files.
-	•	[queries_file]: Path to the file containing queries.
+
+
+	[weight_docs]: Weighting scheme for documents (tf, tfc).
+
+
+	[weight_queries]: Weighting scheme for queries (idf, tfx).
+
+
+	[input_directory]: Path to the directory containing document files.
+
+
+	[queries_file]: Path to the file containing queries.
 
 4. **View Output:** The script will generate output files with ranked lists of documents for each query based on their relevance scores.
 
