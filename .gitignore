@@ -1,0 +1,21 @@
+# Python bytecode files
+__pycache__/
+
+# Output files
+*.output
+
+# Compressed files
+*.zip
+
+# Specific files
+cranfield.answers
+cranfield.queries
+cranfield.reljudge
+cranfield.tf.idf.output
+cranfield.tfc.tfx.output
+
+# Cranfield folder
+cranfieldDocs/
+
+# Other local files
+.DS_Store
